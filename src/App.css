@@ -1,38 +1,98 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+  flex-direction: row;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding: 20px;
+}
+
+header ul {
+  text-decoration: none;
+  color: white;
+  list-style: none;
+}
+
+header li {
+  display: inline-block;
+  padding: 20px;
+}
+
+.logo {
+  font-weight: 600;
+  font-size: 2.2em;
+  color: white;
+  margin-top: 6px;
+}
+
+
+.hero{
+  background-color: #1C073E;
+  height: 100vh;
+}
+
+.hero h1 {
+  font-family: "MontserratSemiBold";
+  font-size: 2.6em;
+  color: white;
+  line-height: 1.3em;
+  margin-bottom: 0.6em;
+}
+
+.hero_content {
+  max-width: 370px;
+  position: absolute;
+  top: 30%;
+  z-index: 1;
+  left: 10%;
+}
+.hero span {
+  color: #FFD500;
+}
+
+p {
+  font-size: 1em;
+  margin-bottom: 1em;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+button {
+  padding: 20px 10px;
+  font-family: inherit;
+  border: 0;
+  font-size: 1em;
+  border: 1px solid white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.signup_button {
+  background-color: white;
+  color: #1C073E;
+}
+
+.talk_button {
+  background-color: #1C073E;
+  color: white;
+  border: 1px solid white ;
+}
+
+.illustration svg {
+  position: absolute;
+  right: 0;
+  display: flex;
+  align-items: flex-end;
+  height: auto;
+  width: 100%;
+}
+
+.illustration svg{
+  overflow: hidden;
+  height: 100vh;
 }

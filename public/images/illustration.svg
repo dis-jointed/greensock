@@ -1,44 +1,4 @@
-
-import gsap from 'gsap/gsap-core';
-import { useEffect } from 'react';
-import './App.css';
-
-function App() {
-
-  useEffect (() => {
-    gsap.from('header', {duration:0.6, ease: "power2. out", y: -60})
-
-  }, [])
-
-
- 
-  return (
-    <div className="App">
-       <header>
-         <div className="logo">
-            Ride.
-         </div>
-         <nav>
-           <ul>
-             <li>Our Products</li>
-             <li>Our Company</li>
-             <li>Safety</li>
-             <li>Help</li>
-           </ul>
-         </nav>
-       </header>
-
-       <section className="hero">
-         <div className="hero_content">
-           <h1>Get in the driver's seat and <span>get paid.</span></h1>
-           <p>Drive on the largest network of active riders</p>
-           <button className="signup_button">Sign up to drive</button>
-           <button className="talk_button">Talk to us</button>
-         </div>
-
-         <div className="illustration">
-
-         <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="1726.62" height="1036.184" viewBox="0 0 1300 1006">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1726.62" height="1036.184" viewBox="0 0 1726.62 1036.184">
   <defs>
     <linearGradient id="linear-gradient" x1="0.012" y1="0.499" x2="1.012" y2="0.499" gradientUnits="objectBoundingBox">
       <stop offset="0" stop-color="#9629b6"/>
@@ -60,8 +20,8 @@ function App() {
       <stop offset="0.869" stop-color="#2e31a1"/>
       <stop offset="1" stop-color="#2c2ca0"/>
     </linearGradient>
-    <linearGradient id="linear-gradient-3" x1="-0.008" y1="0.498" x2="0.992" y2="0.498" xlinkHref="#linear-gradient"/>
-    <linearGradient id="linear-gradient-4" x1="-0.002" y1="0.501" x2="0.999" y2="0.501" xlinkHref="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-3" x1="-0.008" y1="0.498" x2="0.992" y2="0.498" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="-0.002" y1="0.501" x2="0.999" y2="0.501" xlink:href="#linear-gradient-2"/>
     <linearGradient id="linear-gradient-5" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
       <stop offset="0.006" stop-color="#1b063c" stop-opacity="0"/>
       <stop offset="0.087" stop-color="#1e0942" stop-opacity="0.157"/>
@@ -89,20 +49,20 @@ function App() {
       <stop offset="0.799" stop-color="#201453"/>
       <stop offset="1" stop-color="#1e124f"/>
     </linearGradient>
-    <linearGradient id="linear-gradient-8" x1="0" y1="0.5" x2="1" y2="0.5" xlinkHref="#linear-gradient-6"/>
-    <linearGradient id="linear-gradient-9" x1="0" y1="0.5" x2="1" y2="0.5" xlinkHref="#linear-gradient-6"/>
-    <linearGradient id="linear-gradient-10" x1="-0.001" y1="0.5" x2="1.001" y2="0.5" xlinkHref="#linear-gradient-7"/>
-    <linearGradient id="linear-gradient-11" x1="0" y1="0.499" x2="1" y2="0.499" xlinkHref="#linear-gradient-6"/>
-    <linearGradient id="linear-gradient-12" x1="0" y1="0.5" x2="1" y2="0.5" xlinkHref="#linear-gradient-6"/>
-    <linearGradient id="linear-gradient-13" x1="0" y1="0.5" x2="1" y2="0.5" xlinkHref="#linear-gradient-7"/>
-    <linearGradient id="linear-gradient-14" x1="0" y1="0.501" x2="1" y2="0.501" xlinkHref="#linear-gradient-6"/>
-    <linearGradient id="linear-gradient-15" x1="0.001" y1="0.5" x2="1.001" y2="0.5" xlinkHref="#linear-gradient-6"/>
-    <linearGradient id="linear-gradient-16" x1="0" y1="0.5" x2="1" y2="0.5" xlinkHref="#linear-gradient-7"/>
-    <linearGradient id="linear-gradient-17" x1="0" y1="0.5" x2="1" y2="0.5" xlinkHref="#linear-gradient-6"/>
-    <linearGradient id="linear-gradient-18" x1="0.001" y1="0.5" x2="1" y2="0.5" xlinkHref="#linear-gradient-7"/>
-    <linearGradient id="linear-gradient-19" x1="0" y1="0.5" x2="1" y2="0.5" xlinkHref="#linear-gradient-7"/>
-    <linearGradient id="linear-gradient-20" x1="0.001" y1="0.5" x2="1" y2="0.5" xlinkHref="#linear-gradient-6"/>
-    <linearGradient id="linear-gradient-21" x1="0.001" y1="0.5" x2="1" y2="0.5" xlinkHref="#linear-gradient-6"/>
+    <linearGradient id="linear-gradient-8" x1="0" y1="0.5" x2="1" y2="0.5" xlink:href="#linear-gradient-6"/>
+    <linearGradient id="linear-gradient-9" x1="0" y1="0.5" x2="1" y2="0.5" xlink:href="#linear-gradient-6"/>
+    <linearGradient id="linear-gradient-10" x1="-0.001" y1="0.5" x2="1.001" y2="0.5" xlink:href="#linear-gradient-7"/>
+    <linearGradient id="linear-gradient-11" x1="0" y1="0.499" x2="1" y2="0.499" xlink:href="#linear-gradient-6"/>
+    <linearGradient id="linear-gradient-12" x1="0" y1="0.5" x2="1" y2="0.5" xlink:href="#linear-gradient-6"/>
+    <linearGradient id="linear-gradient-13" x1="0" y1="0.5" x2="1" y2="0.5" xlink:href="#linear-gradient-7"/>
+    <linearGradient id="linear-gradient-14" x1="0" y1="0.501" x2="1" y2="0.501" xlink:href="#linear-gradient-6"/>
+    <linearGradient id="linear-gradient-15" x1="0.001" y1="0.5" x2="1.001" y2="0.5" xlink:href="#linear-gradient-6"/>
+    <linearGradient id="linear-gradient-16" x1="0" y1="0.5" x2="1" y2="0.5" xlink:href="#linear-gradient-7"/>
+    <linearGradient id="linear-gradient-17" x1="0" y1="0.5" x2="1" y2="0.5" xlink:href="#linear-gradient-6"/>
+    <linearGradient id="linear-gradient-18" x1="0.001" y1="0.5" x2="1" y2="0.5" xlink:href="#linear-gradient-7"/>
+    <linearGradient id="linear-gradient-19" x1="0" y1="0.5" x2="1" y2="0.5" xlink:href="#linear-gradient-7"/>
+    <linearGradient id="linear-gradient-20" x1="0.001" y1="0.5" x2="1" y2="0.5" xlink:href="#linear-gradient-6"/>
+    <linearGradient id="linear-gradient-21" x1="0.001" y1="0.5" x2="1" y2="0.5" xlink:href="#linear-gradient-6"/>
     <linearGradient id="linear-gradient-22" x1="0.005" y1="0.499" x2="1.002" y2="0.499" gradientUnits="objectBoundingBox">
       <stop offset="0.006" stop-color="#1b063c"/>
       <stop offset="0.238" stop-color="#180536"/>
@@ -110,19 +70,19 @@ function App() {
       <stop offset="0.651" stop-color="#14042f"/>
       <stop offset="1" stop-color="#1b063c"/>
     </linearGradient>
-    <linearGradient id="linear-gradient-23" x1="-0.001" y1="0.499" x2="0.996" y2="0.499" xlinkHref="#linear-gradient-22"/>
-    <linearGradient id="linear-gradient-24" x1="-0.001" y1="0.499" x2="0.996" y2="0.499" xlinkHref="#linear-gradient-22"/>
-    <linearGradient id="linear-gradient-25" x1="0" y1="0.5" x2="1" y2="0.5" xlinkHref="#linear-gradient-6"/>
-    <linearGradient id="linear-gradient-26" x1="0" y1="0.5" x2="1" y2="0.5" xlinkHref="#linear-gradient-6"/>
-    <linearGradient id="linear-gradient-27" x1="0" y1="0.5" x2="1" y2="0.5" xlinkHref="#linear-gradient-7"/>
-    <linearGradient id="linear-gradient-28" x1="-0.003" y1="0.501" x2="0.997" y2="0.501" xlinkHref="#linear-gradient"/>
-    <linearGradient id="linear-gradient-29" x1="-0.001" y1="0.5" x2="1" y2="0.5" xlinkHref="#linear-gradient-2"/>
-    <linearGradient id="linear-gradient-30" x1="0.015" y1="0.502" x2="1.015" y2="0.502" xlinkHref="#linear-gradient"/>
-    <linearGradient id="linear-gradient-31" x1="0.002" y1="0.501" x2="1.003" y2="0.501" xlinkHref="#linear-gradient-2"/>
-    <linearGradient id="linear-gradient-32" x1="-0.007" y1="0.499" x2="1.017" y2="0.499" xlinkHref="#linear-gradient"/>
-    <linearGradient id="linear-gradient-33" x1="-0.002" y1="0.502" x2="1.004" y2="0.502" xlinkHref="#linear-gradient-2"/>
-    <linearGradient id="linear-gradient-34" x1="0.008" y1="0.502" x2="1.008" y2="0.502" xlinkHref="#linear-gradient"/>
-    <linearGradient id="linear-gradient-35" x1="0.001" y1="0.5" x2="1.002" y2="0.5" xlinkHref="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-23" x1="-0.001" y1="0.499" x2="0.996" y2="0.499" xlink:href="#linear-gradient-22"/>
+    <linearGradient id="linear-gradient-24" x1="-0.001" y1="0.499" x2="0.996" y2="0.499" xlink:href="#linear-gradient-22"/>
+    <linearGradient id="linear-gradient-25" x1="0" y1="0.5" x2="1" y2="0.5" xlink:href="#linear-gradient-6"/>
+    <linearGradient id="linear-gradient-26" x1="0" y1="0.5" x2="1" y2="0.5" xlink:href="#linear-gradient-6"/>
+    <linearGradient id="linear-gradient-27" x1="0" y1="0.5" x2="1" y2="0.5" xlink:href="#linear-gradient-7"/>
+    <linearGradient id="linear-gradient-28" x1="-0.003" y1="0.501" x2="0.997" y2="0.501" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-29" x1="-0.001" y1="0.5" x2="1" y2="0.5" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-30" x1="0.015" y1="0.502" x2="1.015" y2="0.502" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-31" x1="0.002" y1="0.501" x2="1.003" y2="0.501" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-32" x1="-0.007" y1="0.499" x2="1.017" y2="0.499" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-33" x1="-0.002" y1="0.502" x2="1.004" y2="0.502" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-34" x1="0.008" y1="0.502" x2="1.008" y2="0.502" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-35" x1="0.001" y1="0.5" x2="1.002" y2="0.5" xlink:href="#linear-gradient-2"/>
   </defs>
   <g id="Group_543" data-name="Group 543" transform="translate(-412 -106.149)">
     <g id="Group_483" data-name="Group 483" transform="translate(1880.833 363.672)">
@@ -411,12 +371,3 @@ function App() {
     </g>
   </g>
 </svg>
-
-         </div>
-         
-       </section>
-    </div>
-  );
-}
-
-export default App;
